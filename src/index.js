@@ -7,6 +7,8 @@ import { Provider } from 'react-redux';
 import reducer from './Store';
 import { createStore } from 'redux';
 
+//store(상태)를 App에 넘긴다.
+
 const store = createStore(reducer);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
